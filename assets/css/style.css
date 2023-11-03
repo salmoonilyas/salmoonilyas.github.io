@@ -1,0 +1,146 @@
+/* =================================== Import Fonts ================================ */
+@font-face {
+  font-family: 'mouse-300';
+  src: url("../fonts/RobotoSlab-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'mouse-500';
+  src: url("../fonts/RobotoSlab-Bold.ttf") format("truetype"); }
+
+/* =================================== CSS for Default elements ================================ */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+  
+hr {
+    border: none;
+    height: 2px; /* Adjust the height to control the thickness */
+    background-color: grey; /* Adjust the color as needed */}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #444; }
+
+.center {
+  text-align: center; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+html, body {
+  height: 100%; }
+
+p {
+  margin-bottom: 0px;
+  width: 100%; }
+
+.no-padding {
+  padding: 0px; }
+
+.no-margin {
+  margin: 0px; }
+
+.hid {
+  display: none; }
+
+.top-mar {
+  margin-top: 15px; }
+
+.h-100 {
+  height: 100%; }
+
+.container-fluid {
+  padding: 0px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "mouse-500", Arial, Helvetica, sans-serif; }
+
+strong {
+  font-family: "mouse-500", Arial, Helvetica, sans-serif; }
+
+body {
+  background-color: #f7f7ff !important;
+  font-family: "mouse-300", Arial, Helvetica, sans-serif;
+  color: #6A6A6A; }
+
+.container {
+  max-width: 1100px; }
+  @media screen and (max-width: 1060px) {
+    .container {
+      max-width: 100%;
+      overflow: hidden; } }
+
+/* ===================================  CSS for Customized elements ================================ */
+
+@media screen and (max-width: 924px) {
+  .overcover {
+    padding: 8px; }
+
+  .sik-div {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 767px) {
+  .left-co {
+    padding-right: 0px; }
+
+  .sik-div {
+    padding-left: 30px; } }
+
+.msik-cover .hotkey {
+  text-align: right;
+  padding: 30px 20px; }
+  .msik-cover .hotkey h1 {
+    width: 100%;
+    text-align: right;
+    color: #c7c2c2; }
+  .msik-cover .hotkey small {
+    font-size: 1rem;
+    color: #9c9898;
+    margin-top: -30px;
+    font-weight: 600; }
+.msik-cover .msik-titl {
+  padding: 10px;
+  border-bottom: 2px dashed #CCC;
+  font-size: 1.1rem; }
+  .msik-cover .msik-titl i {
+    font-size: 18px;
+    margin-right: 5px; }
+.msik-cover .profile {
+  font-size: .9rem;
+  text-align: justify;
+  text-indent: 15px;
+  padding: 5px 0px; }
+.msik-cover .work-exp {
+  padding: 5px 0px; }
+  .msik-cover .work-exp h6 {
+    font-size: .9rem;
+    margin-bottom: 0px; }
+    .msik-cover .work-exp h6 span {
+      float: right;
+      font-size: .8rem; }
+  .msik-cover .work-exp i {
+    font-size: .9rem; }
+  .msik-cover .work-exp ul {
+    padding: 5px 35px; }
+    .msik-cover .work-exp ul li {
+      font-size: .9rem;
+      padding-left: 5px; 
+      list-style-type: disc;}
+      .msik-cover .work-exp ul li i {
+        margin-right: 5px; }
+.msik-cover .education {
+  padding: 20px 0px; }
+  .msik-cover .education ul li {
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    background-color: #ecebeb3d;
+    padding: 10px 15px;
+    font-size: .9rem; }
+    .msik-cover .education ul li span {
+      font-size: .8rem; }
+.msik-cover .skills {
+  padding: 20px 0px; }
